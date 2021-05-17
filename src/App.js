@@ -1,3 +1,4 @@
+// import App.css from './App.css';
 import NavBar from './NavBar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -6,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
+    <div>
         <Container fluid>
         <NavBar />
         <Row >
@@ -34,6 +36,7 @@ function App() {
           <p>WEBSITE UNDER CONSTRUCTION</p>
           <p>Please come back soon.</p>
         </Container>
+        </div>
   );
 }
 
