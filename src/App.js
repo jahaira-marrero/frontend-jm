@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/Container';
 function App() {
   return (
     <div>
-        <Container fluid>
+        <Container>
         <NavBar />
         <Row >
           <Image src="https://media-exp1.licdn.com/dms/image/C4E16AQEWw1_Fi196Sw/profile-displaybackgroundimage-shrink_350_1400/0/1620746439558?e=1626912000&v=beta&t=CEjR7AKFbWioFF4BxKDsuRP_-uoR3JpXivOOtSAUYpw" />
